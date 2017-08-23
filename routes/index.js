@@ -6,6 +6,5 @@ const sendHome = require('./users');
 
 router.get('/', getHome.getHome);
 router.get('/', sendHome.sendHome);
-console.log(router);
 
 module.exports = router;
